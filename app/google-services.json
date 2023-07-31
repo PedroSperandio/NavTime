@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "722632839269",
+    "project_id": "navtime-dd61d",
+    "storage_bucket": "navtime-dd61d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722632839269:android:cb678e29574b3f2804f68c",
+        "android_client_info": {
+          "package_name": "com.example.navtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722632839269-3qoj9smg7tl0f1st70jugdkrqq8l36rs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZDT8LyEzCTcet6XxLyKrabcrp55RgKdA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722632839269-3qoj9smg7tl0f1st70jugdkrqq8l36rs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

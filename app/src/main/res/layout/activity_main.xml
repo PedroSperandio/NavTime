@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58A1D9"
+    tools:context=".MainActivity">
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:columnCount="2"
+        android:rowCount="10"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="10dp"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:id="@+id/nomeCondutorText"
+            android:layout_row="0"
+            android:layout_rowWeight="0.3"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#00008B"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="Motorista"
+            android:textColor="#E8E7E7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/identificacaoText"
+            android:layout_rowWeight="0.3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#00008B"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="Nº de identificação"
+            android:textColor="#FFE8E7E7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nomeCondutor"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#ffffff"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/numeroIdentificacao"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#ffffff"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Loc_Atual"
+            android:layout_rowWeight="0.3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#00008B"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/localizacao_atual"
+            android:textColor="#FFE8E7E7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/locDestino"
+            android:layout_rowWeight="0.3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#00008B"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/destino"
+            android:textColor="#FFE8E7E7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/localizacaoAtual"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#ffffff"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Destino"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#ffffff"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/distanciaPercorrida"
+            android:layout_rowWeight="0.3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#00008B"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/distancia_estimada"
+            android:textColor="#FFE8E7E7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Vel_atual"
+            android:layout_rowWeight="0.3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#00008B"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/velocidade_atual"
+            android:textColor="#FFE8E7E7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/distanciaPercorrer"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#ffffff"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/velocidadeAtual"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#ffffff"
+            android:gravity="center|center_horizontal|center_vertical"
+
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Vel_estimada"
+            android:layout_rowWeight="0.3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#00008B"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/velocidade_estimada"
+            android:textColor="#FFE8E7E7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/consumoCombustivel"
+            android:layout_rowWeight="0.3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#00008B"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/consumo"
+            android:textColor="#FFE8E7E7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/velocidadeEstimada"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#ffffff"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ConsumoSaida"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#ffffff"
+            android:gravity="center|center_horizontal"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_rowWeight="0.3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#00008B"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/tempoDeslocamento"
+            android:textColor="#FFE8E7E7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/statusTexto"
+            android:layout_rowWeight="0.3"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#00008B"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="@string/status"
+            android:textColor="#FFE8E7E7"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tempoDeslocamento"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#ffffff"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/statusSaida"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:background="#ffffff"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/iniciarNavegacao"
+            android:layout_rowWeight="0.4"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:backgroundTint="#00008B"
+            android:onClick="iniciarNav"
+            android:text="@string/Iniciar"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="614dp" />
+
+
+        <Button
+            android:id="@+id/finalizar"
+            android:layout_rowWeight="0.4"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="1sp"
+            android:backgroundTint="#00008B"
+            android:onClick="voltarPrincipal"
+            android:text="@string/finalizar"
+            android:textColorLink="@color/black"
+            app:iconTint="@color/design_default_color_primary_variant"
+            app:rippleColor="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="667dp" />
+
+
+
+
+    </GridLayout>
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
